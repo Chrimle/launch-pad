@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SocialLinks from './components/SocialLinks';
 import Title from './components/Title';
