@@ -8,11 +8,13 @@ const styles = StyleSheet.create({
         justifyContent: 'left',
         alignItems: 'center',
         borderStyle: 'solid',
-        borderWidth: '5px',
+        borderWidth: '3px',
         borderColor: theme.PRIMARY_COLOR,
         backgroundColor: 'black',
         padding: '10px',
-        borderRadius: '25px'
+        borderRadius: '15px',
+        textDecorationLine:'none',
+        marginBottom: '10px',
     },
     containerHover: {
         backgroundColor: theme.PRIMARY_COLOR,
