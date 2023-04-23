@@ -1,4 +1,4 @@
-# Chrimle.com - LaunchPad
+# [Chrimle.com](https://chrimle.com/) - LaunchPad
 ## The launch-pad for Chrimle.com
 
 ### This is a hobby project where I setup a website entirely on my own...
