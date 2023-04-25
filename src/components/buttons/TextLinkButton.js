@@ -1,7 +1,7 @@
 import {useState} from 'react';
-import styles from './StylesHorizontalLinkButton.js';
+import styles from './StylesTextLinkButton.js';
 
-export default function HorizontalLinkButton({image, altText, text, url}) {
+export default function TextLinkButton({text, url}) {
 
     const [isHover, setIsHover] = useState(false);
 
@@ -21,7 +21,6 @@ export default function HorizontalLinkButton({image, altText, text, url}) {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <img style={styles.icon} src={image} alt={altText}/>
             <text style={isHover ? {...styles.text, ...styles.textHover} : styles.text}>{text}</text>
         </a>
     );

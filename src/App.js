@@ -1,5 +1,6 @@
 import './App.css';
 import SocialLinks from './components/SocialLinks';
+import SocialMediaLinks from './components/SocialMediaLinks';
 import SubTitle from './components/SubTitle';
 import Title from './components/Title';
 
@@ -10,6 +11,7 @@ function App() {
         <Title/>
         <SubTitle/>
         <SocialLinks/>
+        <SocialMediaLinks/>
       </header>
     </div>
   );
