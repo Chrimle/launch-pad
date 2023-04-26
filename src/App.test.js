@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+
+import Title from './components/Title';
 
 test('renders chrimle title', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/chrimle/i);
+  render(<Title />);
+  const linkElement = screen.getByText(/Chrimle/i);
   expect(linkElement).toBeInTheDocument();
 });
