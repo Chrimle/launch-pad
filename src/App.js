@@ -1,4 +1,6 @@
 import './App.css';
+import Description from './components/Description';
+import Footer from './components/Footer';
 import SocialLinks from './components/SocialLinks';
 import SocialMediaLinks from './components/SocialMediaLinks';
 import SubTitle from './components/SubTitle';
@@ -10,8 +12,10 @@ function App() {
       <header className="App-header">
         <Title/>
         <SubTitle/>
+        <Description/>
         <SocialLinks/>
         <SocialMediaLinks/>
+        <Footer/>
       </header>
     </div>
   );
