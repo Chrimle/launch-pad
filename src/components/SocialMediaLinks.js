@@ -3,7 +3,7 @@ import TextLinkButton from './buttons/TextLinkButton';
 import theme from '../theme';
 
 const socialMediaLinks = [
-    { text: "YouTube", url: "https://www.youtube.com/@Schrimle/featured" },
+    { text: "YouTube", url: "https://www.youtube.com/channel/UC19Ueh3p2qYWkWUF8qFz0Pg" },
     { text: "Twitter", url: "https://twitter.com/Chrimle" },
     { text: "Instagram", url: "https://www.instagram.com/chrimle/" },
   ];
