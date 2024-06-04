@@ -1,6 +1,6 @@
 import {View} from 'react-native';
 import linkedin from '../images/logo-linkedin.png';
-import github from '../images/github.svg';
+import github from '../images/logo-github-white.svg';
 import stackoverflow from '../images/stackoverflow.svg';
 import codingame from '../images/codingame.svg';
 import hackerrank from '../images/hackerrank.svg';
