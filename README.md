@@ -37,4 +37,5 @@ Upon submitting the Pull Request, the new commit in [main](https://github.com/Ch
 > References to logotypes and guidelines:
 > - [LinkedIn](https://brand.linkedin.com/content/brand/global/en_us/index/visual-identity/logo)
 > - [GitHub](https://github.com/logos)
+> - [Stack Overflow](https://stackoverflow.design/brand/logo/)
 > - [Codingame](https://www.codingame.com/work/press/)
