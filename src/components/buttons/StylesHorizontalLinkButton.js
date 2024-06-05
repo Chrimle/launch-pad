@@ -15,6 +15,8 @@ const styles = StyleSheet.create({
         borderRadius: '15px',
         textDecorationLine:'none',
         marginBottom: '10px',
+        height: '50px',
+        width: '250px'
     },
     containerHover: {
         backgroundColor: theme.PRIMARY_COLOR,
