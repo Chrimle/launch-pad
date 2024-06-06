@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         borderWidth: '3px',
         borderColor: theme.PRIMARY_COLOR,
         backgroundColor: 'black',
-        padding: '10px',
+        padding: '25px',
         borderRadius: '15px',
         textDecorationLine: 'none',
         marginBottom: '10px',
