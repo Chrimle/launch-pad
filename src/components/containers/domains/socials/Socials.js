@@ -1,5 +1,6 @@
-import logoLinkedIn from '../../../../images/logo-linkedin.png';
-import logoGitHub from '../../../../images/logo-github-white.svg';
+import logoLinkedIn from '../../../../images/logo-linkedin-blue.png';
+import logoGitHub from '../../../../images/logo-github-white.png';
+import logoHoverGitHub from '../../../../images/logo-github-black.png';
 import logoStackOverflow from '../../../../images/logo-stackoverflow-white.svg';
 import logoHoverStackOverflow from '../../../../images/logo-stackoverflow-black.svg';
 import logoCodinGame from '../../../../images/logo-codingame-white.png';
@@ -11,34 +12,34 @@ export default function Socials() {
 
     return [
         {
-            text: "LinkedIn",
-            altText: "My Profile on LinkedIn",
+            title: "My Profile on LinkedIn",
             url: "https://linkedin.com/in/chrimle",
-            image: logoLinkedIn,
+            lightImage: logoLinkedIn,
+            darkImage: logoLinkedIn,
         },
         {
-            text: "GitHub",
-            altText: "My Profile on GitHub",
+            title: "My Profile on GitHub",
             url: "https://github.com/chrimle",
-            image: logoGitHub,
+            lightImage: logoGitHub,
+            darkImage: logoHoverGitHub,
         },
         {
-            altText: "My Profile on Stack Overflow",
+            title: "My Profile on Stack Overflow",
             url: "https://stackoverflow.com/users/5424535/chrimle",
-            image: logoStackOverflow,
-            hoverImage: logoHoverStackOverflow,
+            lightImage: logoStackOverflow,
+            darkImage: logoHoverStackOverflow,
         },
         {
-            altText: "My Profile on CodinGame",
+            title: "My Profile on CodinGame",
             url: "https://www.codingame.com/profile/a77d3f05e778f45ddc96b8c5693bdf913730442",
-            image: logoCodinGame,
-            hoverImage: logoHoverCodinGame,
+            lightImage: logoCodinGame,
+            darkImage: logoHoverCodinGame,
         },
         {
-            altText: "My Profile on HackerRank",
+            title: "My Profile on HackerRank",
             url: "https://www.hackerrank.com/Chrimle",
-            image: logoHackerRank,
-            hoverImage: logoHoverHackerRank,
+            lightImage: logoHackerRank,
+            darkImage: logoHoverHackerRank,
         },
     ];
 }
