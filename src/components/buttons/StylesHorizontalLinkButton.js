@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'black',
         padding: '10px',
         borderRadius: '15px',
-        textDecorationLine:'none',
+        textDecorationLine: 'none',
         marginBottom: '10px',
         height: '50px',
         width: '250px'

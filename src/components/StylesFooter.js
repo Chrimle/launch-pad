@@ -10,16 +10,16 @@ const styles = StyleSheet.create({
         borderTopWidth: '5px',
         borderTopStyle: 'double',
         padding: '5px',
-        width:'100%',
+        width: '100%',
     },
-    altText:{
-        color:'ghostwhite',
-        fontStyle:'italic'
+    altText: {
+        color: 'ghostwhite',
+        fontStyle: 'italic'
     },
     linkText: {
         textDecorationLine: 'none',
-        color:theme.PRIMARY_COLOR,
-        fontStyle:'italic'
+        color: theme.PRIMARY_COLOR,
+        fontStyle: 'italic'
     }
 });
 
