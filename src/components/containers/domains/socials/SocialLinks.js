@@ -6,7 +6,7 @@ export default function SocialLinks() {
 
   return <View>
     {Socials().map(social =>
-      <HorizontalLinkButton image={social.image} hoverImage={social.hoverImage} text={social.text} altText={social.altText} url={social.url} />
+      <HorizontalLinkButton image={social.lightImage} hoverImage={social.darkImage} title={social.title} url={social.url} />
     )}
   </View>
 }

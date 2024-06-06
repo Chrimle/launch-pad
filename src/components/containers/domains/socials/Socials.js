@@ -12,33 +12,34 @@ export default function Socials() {
 
     return [
         {
-            altText: "My Profile on LinkedIn",
+            title: "My Profile on LinkedIn",
             url: "https://linkedin.com/in/chrimle",
-            image: logoLinkedIn,
+            lightImage: logoLinkedIn,
+            darkImage: logoLinkedIn,
         },
         {
-            altText: "My Profile on GitHub",
+            title: "My Profile on GitHub",
             url: "https://github.com/chrimle",
-            image: logoGitHub,
-            hoverImage: logoHoverGitHub,
+            lightImage: logoGitHub,
+            darkImage: logoHoverGitHub,
         },
         {
-            altText: "My Profile on Stack Overflow",
+            title: "My Profile on Stack Overflow",
             url: "https://stackoverflow.com/users/5424535/chrimle",
-            image: logoStackOverflow,
-            hoverImage: logoHoverStackOverflow,
+            lightImage: logoStackOverflow,
+            darkImage: logoHoverStackOverflow,
         },
         {
-            altText: "My Profile on CodinGame",
+            title: "My Profile on CodinGame",
             url: "https://www.codingame.com/profile/a77d3f05e778f45ddc96b8c5693bdf913730442",
-            image: logoCodinGame,
-            hoverImage: logoHoverCodinGame,
+            lightImage: logoCodinGame,
+            darkImage: logoHoverCodinGame,
         },
         {
-            altText: "My Profile on HackerRank",
+            title: "My Profile on HackerRank",
             url: "https://www.hackerrank.com/Chrimle",
-            image: logoHackerRank,
-            hoverImage: logoHoverHackerRank,
+            lightImage: logoHackerRank,
+            darkImage: logoHoverHackerRank,
         },
     ];
 }
