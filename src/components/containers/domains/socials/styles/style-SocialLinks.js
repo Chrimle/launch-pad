@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
     header: {
         color: 'white',
         fontSize: '32pt',
-        color: 'white',
         textAlign: 'center',
         borderBottomColor: theme.PRIMARY_COLOR,
         borderBottomWidth: '5px'
