@@ -1,5 +1,6 @@
 import logoLinkedIn from '../../../../images/logo-linkedin.png';
-import logoGitHub from '../../../../images/logo-github-white.svg';
+import logoGitHub from '../../../../images/logo-github-white.png';
+import logoHoverGitHub from '../../../../images/logo-github-black.png';
 import logoStackOverflow from '../../../../images/logo-stackoverflow-white.svg';
 import logoHoverStackOverflow from '../../../../images/logo-stackoverflow-black.svg';
 import logoCodinGame from '../../../../images/logo-codingame-white.png';
@@ -17,10 +18,10 @@ export default function Socials() {
             image: logoLinkedIn,
         },
         {
-            text: "GitHub",
             altText: "My Profile on GitHub",
             url: "https://github.com/chrimle",
             image: logoGitHub,
+            hoverImage: logoHoverGitHub,
         },
         {
             altText: "My Profile on Stack Overflow",
