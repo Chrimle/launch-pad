@@ -5,7 +5,8 @@ import stackoverflow from '../images/logo-stackoverflow-white.svg';
 import hoverStackoverflow from '../images/logo-stackoverflow-black.svg';
 import codingame from '../images/logo-codingame-white.png';
 import hoverCodingame from '../images/logo-codingame-black.png';
-import hackerrank from '../images/hackerrank.svg';
+import hackerrank from '../images/logo-hackerrank-white.svg';
+import hoverHackerrank from '../images/logo-hackerrank-black.svg'
 import HorizontalLinkButton from './buttons/HorizontalLinkButton';
 
 const socialLinks = [
@@ -13,7 +14,7 @@ const socialLinks = [
     { image: github, altText: "Link to my GitHub-page.", text: "GitHub", url: "https://github.com/chrimle"},
   { image: stackoverflow, hoverImage: hoverStackoverflow, altText: "My Profile on Stack Overflow", url: "https://stackoverflow.com/users/5424535/chrimle" },
   { image: codingame, hoverImage: hoverCodingame, altText: "Link to my Codingame-page.", url: "https://www.codingame.com/profile/a77d3f05e778f45ddc96b8c5693bdf913730442" },
-    { image: hackerrank, altText: "Link to my HackerRank-page.", text: "HackerRank", url: "https://www.hackerrank.com/Chrimle"},
+  { image: hackerrank, hoverImage: hoverHackerrank, altText: "My Profile on HackerRank", url: "https://www.hackerrank.com/Chrimle" },
   ];
 
 
