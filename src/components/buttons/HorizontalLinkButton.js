@@ -22,7 +22,7 @@ export default function HorizontalLinkButton({ image, hoverImage, title, url }) 
             onMouseLeave={handleMouseLeave}
             title={title}
         >
-            <img style={styles.icon} src={isHover ? hoverImage : image} alt={title} />
+            <img style={{ maxWidth: '250px' }} src={isHover ? hoverImage : image} alt={title} />
         </a>
     );
 }

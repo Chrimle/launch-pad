@@ -32,7 +32,8 @@ const styles = StyleSheet.create({
         color: theme.SECONDARY_COLOR,
     },
     icon: {
-        maxWidth: '250px'
+        width: '50px',
+        height: '50px',
     },
 });
 
