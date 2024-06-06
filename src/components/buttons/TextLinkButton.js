@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './StylesTextLinkButton.js';
 
-export default function TextLinkButton({ text, url }) {
+export default function TextLinkButton({ text, url, hoverText }) {
 
     const [isHover, setIsHover] = useState(false);
 
@@ -20,6 +20,7 @@ export default function TextLinkButton({ text, url }) {
             rel="noreferrer"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            title={hoverText}
         >
             <text style={isHover ? { ...styles.text, ...styles.textHover } : styles.text}>{text}</text>
         </a>
