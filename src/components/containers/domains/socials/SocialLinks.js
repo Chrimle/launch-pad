@@ -1,6 +1,6 @@
 import { View } from 'react-native';
 import HorizontalLinkButton from '../../../buttons/HorizontalLinkButton';
-import Socials from './socials';
+import Socials from './Socials';
 
 export default function SocialLinks() {
 
