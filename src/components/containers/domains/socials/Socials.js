@@ -1,4 +1,4 @@
-import logoLinkedIn from '../../../../images/logo-linkedin.png';
+import logoLinkedIn from '../../../../images/logo-linkedin-blue.png';
 import logoGitHub from '../../../../images/logo-github-white.png';
 import logoHoverGitHub from '../../../../images/logo-github-black.png';
 import logoStackOverflow from '../../../../images/logo-stackoverflow-white.svg';
@@ -12,7 +12,6 @@ export default function Socials() {
 
     return [
         {
-            text: "LinkedIn",
             altText: "My Profile on LinkedIn",
             url: "https://linkedin.com/in/chrimle",
             image: logoLinkedIn,
