@@ -20,6 +20,7 @@ export default function HorizontalLinkButton({ image, hoverImage, altText, text,
             rel="noreferrer"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            title={altText}
         >
             <img style={text != null ? styles.icon : { maxWidth: '250px' }} src={isHover && hoverImage != null ? hoverImage : image} alt={altText} />
             {text != null && <text style={isHover ? { ...styles.text, ...styles.textHover } : styles.text}>{text}</text>}
