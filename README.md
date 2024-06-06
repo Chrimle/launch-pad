@@ -39,3 +39,4 @@ Upon submitting the Pull Request, the new commit in [main](https://github.com/Ch
 > - [GitHub](https://github.com/logos)
 > - [Stack Overflow](https://stackoverflow.design/brand/logo/)
 > - [Codingame](https://www.codingame.com/work/press/)
+> - [HackerRank](https://www.hackerrank.com/)
