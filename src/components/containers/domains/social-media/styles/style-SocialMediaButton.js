@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native";
 import theme from "../../../../../theme";
 
-
 const styles = StyleSheet.create({
     container: {
         display: 'flex',
@@ -9,13 +8,13 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-start',
         alignItems: 'center',
         borderStyle: 'solid',
-        borderWidth: '3px',
+        borderWidth: '1px',
         borderColor: theme.PRIMARY_COLOR,
         backgroundColor: 'black',
         padding: '10px',
         margin: '5px',
         marginTop: '15px',
-        borderRadius: '15px',
+        borderRadius: '5px',
         textDecorationLine: 'none',
     },
     containerHover: {
