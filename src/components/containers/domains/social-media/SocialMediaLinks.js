@@ -1,8 +1,8 @@
 import { Text, View } from 'react-native';
-import TextLinkButton from '../../../buttons/TextLinkButton';
-import theme from '../../../../theme';
 import SocialMedia from './SocialMedia';
 import styles from './styles/style-SocialMediaLinks';
+import theme from '../../../../theme';
+import SocialMediaButton from './SocialMediaButton';
 
 export default function SocialMediaLinks() {
 
@@ -10,7 +10,7 @@ export default function SocialMediaLinks() {
     <Text style={styles.header}>Other <text style={{ color: theme.PRIMARY_COLOR }}>Verified</text> Socials</Text>
     <View style={styles.buttonsContainer}>
       {SocialMedia().map(socialMediaLink =>
-        <TextLinkButton text={socialMediaLink.text} url={socialMediaLink.url} hoverText={socialMediaLink.hoverText} />
+        <SocialMediaButton text={socialMediaLink.text} url={socialMediaLink.url} hoverText={socialMediaLink.hoverText} />
       )}
     </View>
   </View>
