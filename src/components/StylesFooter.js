@@ -4,6 +4,7 @@ import theme from "../theme";
 
 const styles = StyleSheet.create({
     footer: {
+        fontSize: '16pt',
         color: theme.PRIMARY_COLOR,
         backgroundColor: theme.SECONDARY_COLOR,
         borderTopColor: theme.PRIMARY_COLOR,
@@ -14,12 +15,12 @@ const styles = StyleSheet.create({
     },
     altText: {
         color: 'ghostwhite',
-        fontStyle: 'italic'
+        fontStyle: 'italic',
     },
     linkText: {
         textDecorationLine: 'none',
         color: theme.PRIMARY_COLOR,
-        fontStyle: 'italic'
+        fontStyle: 'italic',
     }
 });
 
