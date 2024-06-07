@@ -7,14 +7,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignSelf: 'flex-start',
         alignItems: 'center',
-        borderStyle: 'solid',
-        borderWidth: '1px',
-        borderColor: theme.PRIMARY_COLOR,
-        backgroundColor: 'black',
+        borderBottomStyle: 'solid',
+        borderBottomWidth: '1px',
+        borderBottomColor: theme.PRIMARY_COLOR,
         padding: '10px',
         margin: '5px',
         marginTop: '15px',
-        borderRadius: '5px',
         textDecorationLine: 'none',
     },
     containerHover: {
@@ -24,7 +22,7 @@ const styles = StyleSheet.create({
         flex: 1,
         textAlignVertical: 'center',
         textAlign: 'center',
-        color: theme.PRIMARY_COLOR,
+        color: 'white',
         whiteSpace: 'nowrap'
     },
     textHover: {
