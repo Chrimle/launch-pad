@@ -8,15 +8,19 @@ import Title from './components/Title';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <Title />
         <SubTitle />
+      </header>
+      <body>
         <Description />
         <SocialLinks />
         <SocialMediaLinks />
+      </body>
+      <footer>
         <Footer />
-      </header>
+      </footer>
     </div>
   );
 }
