@@ -22,6 +22,9 @@ const styles = StyleSheet.create({
         padding: '25px',
         width: 'auto',
     },
+    highlightedText: {
+        color: theme.PRIMARY_COLOR
+    },
 });
 
 export default styles;

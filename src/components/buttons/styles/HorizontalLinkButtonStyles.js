@@ -1,33 +1,39 @@
 import { StyleSheet } from "react-native";
-import theme from "../../theme";
+import theme from "../../../theme";
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        display: 'flex',
         flexDirection: 'row',
-        alignSelf: 'flex-start',
+        justifyContent: 'left',
         alignItems: 'center',
         borderStyle: 'solid',
         borderWidth: '3px',
         borderColor: theme.PRIMARY_COLOR,
         backgroundColor: 'black',
-        padding: '10px',
-        margin: '5px',
-        marginTop: '15px',
+        padding: '25px',
         borderRadius: '15px',
         textDecorationLine: 'none',
+        marginBottom: '10px',
+        height: '50px',
+        width: '250px'
     },
     containerHover: {
         backgroundColor: theme.PRIMARY_COLOR,
     },
     text: {
-        flex: 1,
+        marginLeft: '10px',
+        justifyContent: 'center',
         textAlignVertical: 'center',
         textAlign: 'center',
         color: theme.PRIMARY_COLOR,
     },
     textHover: {
         color: theme.SECONDARY_COLOR,
+    },
+    icon: {
+        width: '50px',
+        height: '50px',
     },
 });
 

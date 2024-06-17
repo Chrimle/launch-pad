@@ -1,11 +1,11 @@
 import { render, screen, within } from '@testing-library/react';
 
-import Title from './components/Title';
-import Description from './components/Description';
-import SubTitle from './components/SubTitle';
+import Description from './components/containers/domains/bodies/Description';
 import SocialLinks from './components/containers/domains/socials/SocialLinks';
 import SocialMediaLinks from './components/containers/domains/social-media/SocialMediaLinks';
-import Footer from './components/Footer';
+import Footer from './components/containers/Footer';
+import Title from './components/containers/domains/headers/Title';
+import SubTitle from './components/containers/domains/headers/SubTitle';
 
 test('renders chrimle title', () => {
   render(<Title />);
