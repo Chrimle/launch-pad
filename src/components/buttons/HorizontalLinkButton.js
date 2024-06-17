@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './StylesHorizontalLinkButton.js';
+import styles from './styles/HorizontalLinkButtonStyles.js';
 
 export default function HorizontalLinkButton({ image, hoverImage, title, url }) {
 

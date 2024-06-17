@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native';
 import Socials from './Socials';
-import styles from './styles/style-SocialLinks';
+import styles from './styles/SocialLinksStyles';
 import SocialButton from './SocialButton';
 
 export default function SocialLinks() {
