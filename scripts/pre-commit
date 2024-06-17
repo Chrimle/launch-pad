@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "***** Running Unit-Tests... ******"
+
+stashed_commit="$(git stash create)"
+git reset —-hard
+
+npm test -- --watchAll=false
+
+status=$?
+
+if [[ -n "${stashed_commit}" ]]
+then git stash apply "${stash_commit}"
+fi
+
+exit $status
