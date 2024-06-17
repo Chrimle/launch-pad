@@ -10,7 +10,7 @@ npm test -- --watchAll=false
 status=$?
 
 if [[ -n "${stashed_commit}" ]]
-then git stash apply "${stash_commit}"
+then git stash apply "${stashed_commit}"
 fi
 
 exit $status
