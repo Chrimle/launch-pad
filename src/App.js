@@ -1,9 +1,7 @@
 import './App.css';
-import Description from './components/Description';
 import Footer from './components/Footer';
-import SocialLinks from './components/containers/domains/socials/SocialLinks';
-import SocialMediaLinks from './components/containers/domains/social-media/SocialMediaLinks';
 import Header from './components/containers/domains/headers/Header';
+import Body from './components/Body';
 
 function App() {
   return (
@@ -12,9 +10,7 @@ function App() {
         <Header />
       </header>
       <body>
-        <Description />
-        <SocialLinks />
-        <SocialMediaLinks />
+        <Body />
       </body>
       <footer>
         <Footer />
