@@ -1,9 +1,9 @@
 import { View } from 'react-native';
-import theme from '../../../../theme';
+import styles from './styles/TitleStyles';
 
 export default function Title() {
 
   return <View>
-    <text style={{ fontSize: '60px', color: theme.PRIMARY_COLOR }}>Chrimle</text>
+    <text style={styles.text}>Chrimle</text>
   </View>
 }

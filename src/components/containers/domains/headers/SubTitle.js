@@ -1,8 +1,9 @@
 import { View } from 'react-native';
+import styles from './styles/SubTitleStyles';
 
 export default function SubTitle() {
 
   return <View>
-    <text style={{ fontSize: '30px', color: 'whitesmoke', marginBottom: '30px', fontStyle: 'italic' }}>Software Engineer</text>
+    <text style={styles.text}>Software Engineer</text>
   </View>
 }
