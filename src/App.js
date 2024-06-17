@@ -3,15 +3,13 @@ import Description from './components/Description';
 import Footer from './components/Footer';
 import SocialLinks from './components/containers/domains/socials/SocialLinks';
 import SocialMediaLinks from './components/containers/domains/social-media/SocialMediaLinks';
-import SubTitle from './components/SubTitle';
-import Title from './components/Title';
+import Header from './components/containers/domains/headers/Header';
 
 function App() {
   return (
     <div>
       <header>
-        <Title />
-        <SubTitle />
+        <Header />
       </header>
       <body>
         <Description />
