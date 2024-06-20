@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import styles from './styles/SubTitleStyles';
+import styles from './SubTitle.styles';
 
 export default function SubTitle() {
 
