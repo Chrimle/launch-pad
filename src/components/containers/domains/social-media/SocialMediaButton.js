@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './styles/SocialMediaButtonStyles.js';
+import styles from './SocialMediaButton.styles.js';
 
 export default function SocialMediaButton({ text, url, hoverText }) {
 
