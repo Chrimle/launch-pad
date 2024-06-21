@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './styles/TextLinkButtonStyles.js';
+import styles from './TextLinkButton.styles.js';
 
 export default function TextLinkButton({ text, url, hoverText }) {
 

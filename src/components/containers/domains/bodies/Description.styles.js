@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../theme";
+import theme from "../../../../assets/theme";
 
 
 const styles = StyleSheet.create({
@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
         borderRadius: '15px',
         color: 'white',
     },
+    highlightedText: {
+        color: theme.PRIMARY_COLOR,
+    }
 });
 
 export default styles;

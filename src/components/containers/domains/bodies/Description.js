@@ -1,5 +1,4 @@
 import { View } from 'react-native';
-import theme from '../../../../theme';
 import styles from './Description.styles';
 
 export default function Description() {
@@ -14,6 +13,6 @@ export default function Description() {
         <text>Last, but not least, I wish to share and keep the many hobby projects I've worked on in a centralized place.</text>
         <text><br /></text>
         <text>This isn't much, but I've got to start somewhere!</text>
-        <text style={{ color: theme.PRIMARY_COLOR }}>Cheers, <br /> Christopher Molin</text>
+        <text style={styles.highlightedText}>Cheers, <br /> Christopher Molin</text>
     </View>
 }
