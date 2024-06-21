@@ -1,6 +1,7 @@
 const theme = {
-    PRIMARY_COLOR: 'aquamarine',
-    SECONDARY_COLOR: '#282c34',
-  };
+  PRIMARY_COLOR: 'aquamarine',
+  SECONDARY_COLOR: '#282c34',
+  BACKGROUND_COLOR: '#282c34',
+};
 
-  export default theme;
+export default theme;

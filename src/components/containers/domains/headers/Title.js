@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import styles from './styles/TitleStyles';
+import styles from './Title.styles';
 
 export default function Title() {
 

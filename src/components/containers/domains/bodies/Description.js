@@ -1,6 +1,6 @@
 import { View } from 'react-native';
 import theme from '../../../../theme';
-import styles from './styles/DescriptionStyles';
+import styles from './Description.styles';
 
 export default function Description() {
 

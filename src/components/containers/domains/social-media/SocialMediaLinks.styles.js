@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../../theme";
+import theme from "../../../../theme";
 
 
 const styles = StyleSheet.create({
@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: '25px',
         width: 'auto',
+    },
+    highlightedText: {
+        color: theme.PRIMARY_COLOR
     },
 });
 

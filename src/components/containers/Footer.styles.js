@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../theme";
+import theme from "../../theme";
 
 
 const styles = StyleSheet.create({
@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         borderTopStyle: 'double',
         padding: '5px',
         width: '100%',
+        textAlign: 'center',
     },
     altText: {
         color: 'ghostwhite',

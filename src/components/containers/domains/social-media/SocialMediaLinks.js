@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native';
 import SocialMedia from './SocialMedia';
-import styles from './styles/SocialMediaLinksStyles';
+import styles from './SocialMediaLinks.styles';
 import SocialMediaButton from './SocialMediaButton';
 
 export default function SocialMediaLinks() {

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../../theme";
+import theme from "../../../../theme";
 
 
 const styles = StyleSheet.create({
@@ -10,10 +10,12 @@ const styles = StyleSheet.create({
         paddingHorizontal: '30px',
         paddingVertical: '15px',
         fontFamily: 'Caveat',
+        fontSize: '3vmin',
         textAlign: 'left',
         borderWidth: '1px',
         borderColor: theme.PRIMARY_COLOR,
-        borderRadius: '15px'
+        borderRadius: '15px',
+        color: 'white',
     },
 });
 

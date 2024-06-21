@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../../theme";
+import theme from "../../../../theme";
 
 const styles = StyleSheet.create({
     container: {
@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
         textAlignVertical: 'center',
         textAlign: 'center',
         color: 'white',
-        whiteSpace: 'nowrap'
+        whiteSpace: 'nowrap',
+        fontSize: '2vmax',
     },
     textHover: {
         color: theme.SECONDARY_COLOR,
