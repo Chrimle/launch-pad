@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: '30px',
         paddingVertical: '15px',
         fontFamily: 'Caveat',
-        fontSize: '2.5vmax',
+        fontSize: '3vmin',
         textAlign: 'left',
         borderWidth: '1px',
         borderColor: theme.PRIMARY_COLOR,
