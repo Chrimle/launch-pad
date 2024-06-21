@@ -35,7 +35,7 @@ test('renders social links', () => {
     const image = within(social).getByRole('img');
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute('src');
-    expect(image.getAttribute('src')).toMatch(/^logo-.*$/);
+    expect(image.getAttribute('src')).toMatch(/^\/images\/external\/logo-.*$/);
     // Check Tooltip
     expect(social).toHaveAttribute('title');
     expect(social.getAttribute('title')).toMatch(/^My Profile on .*$/);
