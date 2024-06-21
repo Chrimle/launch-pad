@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         borderTopStyle: 'double',
         padding: '5px',
         width: '100%',
+        textAlign: 'center',
     },
     altText: {
         color: 'ghostwhite',
