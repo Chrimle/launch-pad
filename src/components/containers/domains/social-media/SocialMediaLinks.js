@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-import SocialMedias from './SocialMedias.json';
+import SocialMedias from './assets/SocialMedias.json';
 import styles from './SocialMediaLinks.styles';
 import SocialMediaButton from './SocialMediaButton';
 
