@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native-web";
-import theme from "../../../../theme";
+import theme from "../../../../assets/theme";
 
 const styles = StyleSheet.create({
     text: {
