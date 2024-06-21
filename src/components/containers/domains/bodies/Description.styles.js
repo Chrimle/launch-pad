@@ -10,10 +10,12 @@ const styles = StyleSheet.create({
         paddingHorizontal: '30px',
         paddingVertical: '15px',
         fontFamily: 'Caveat',
+        fontSize: '2.5vmax',
         textAlign: 'left',
         borderWidth: '1px',
         borderColor: theme.PRIMARY_COLOR,
-        borderRadius: '15px'
+        borderRadius: '15px',
+        color: 'white',
     },
 });
 
