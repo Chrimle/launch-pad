@@ -1,12 +1,12 @@
-import logoLinkedIn from '../../../../images/logo-linkedin-blue.png';
-import logoGitHub from '../../../../images/logo-github-white.png';
-import logoHoverGitHub from '../../../../images/logo-github-black.png';
-import logoStackOverflow from '../../../../images/logo-stackoverflow-white.svg';
-import logoHoverStackOverflow from '../../../../images/logo-stackoverflow-black.svg';
-import logoCodinGame from '../../../../images/logo-codingame-white.png';
-import logoHoverCodinGame from '../../../../images/logo-codingame-black.png';
-import logoHackerRank from '../../../../images/logo-hackerrank-white.svg';
-import logoHoverHackerRank from '../../../../images/logo-hackerrank-black.svg';
+import logoLinkedIn from '../../../../assets/images/logo-linkedin-blue.png';
+import logoGitHub from '../../../../assets/images/logo-github-white.png';
+import logoHoverGitHub from '../../../../assets/images/logo-github-black.png';
+import logoStackOverflow from '../../../../assets/images/logo-stackoverflow-white.svg';
+import logoHoverStackOverflow from '../../../../assets/images/logo-stackoverflow-black.svg';
+import logoCodinGame from '../../../../assets/images/logo-codingame-white.png';
+import logoHoverCodinGame from '../../../../assets/images/logo-codingame-black.png';
+import logoHackerRank from '../../../../assets/images/logo-hackerrank-white.svg';
+import logoHoverHackerRank from '../../../../assets/images/logo-hackerrank-black.svg';
 
 export default function Socials() {
 
