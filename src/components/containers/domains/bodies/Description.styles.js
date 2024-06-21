@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
         borderRadius: '15px',
         color: 'white',
     },
+    highlightedText: {
+        color: theme.PRIMARY_COLOR,
+    }
 });
 
 export default styles;
