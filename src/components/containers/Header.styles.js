@@ -3,9 +3,13 @@ import theme from "../../assets/theme";
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: '50px',
+        padding: '1em',
         textAlign: 'center',
-        backgroundColor: theme.BACKGROUND_COLOR,
+        backgroundColor: theme.PRIMARY_COLOR,
+        position: 'sticky',
+        top: '0',
+        zIndex: '1',
+        boxShadow: '0em 0.25em 0.5em 0.1em',
     }
 });
 
