@@ -9,10 +9,10 @@ const theme = {
     }
   },
   Colors: {
-    PRIMARY: '#222831',
-    SECONDARY: '#393E46',
+    PRIMARY: '#222831', // 60%
+    SECONDARY: '#393E46', // 30%
+    TERTIARY: 'aquamarine', // 10%
     NEUTRAL: 'whitesmoke',
-    TERTIARY: 'aquamarine',
   }
 };
 
