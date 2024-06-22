@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../assets/theme";
+import theme from "../../../../assets/theme.js";
 
 
 const styles = StyleSheet.create({
@@ -7,10 +7,10 @@ const styles = StyleSheet.create({
         margin: '25px',
     },
     header: {
-        color: 'white',
-        fontSize: '32pt',
+        color: theme.Colors.NEUTRAL,
+        fontSize: theme.Fonts.Sizes.HEADER,
         textAlign: 'center',
-        borderBottomColor: theme.PRIMARY_COLOR,
+        borderBottomColor: theme.Colors.TERTIARY,
         borderBottomWidth: '5px'
     },
     buttonsContainer: {

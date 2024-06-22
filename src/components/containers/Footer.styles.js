@@ -1,26 +1,26 @@
 import { StyleSheet } from "react-native";
-import theme from "../../assets/theme";
+import theme from "../../assets/theme.js";
 
 
 const styles = StyleSheet.create({
     footer: {
-        fontSize: '16pt',
-        color: theme.PRIMARY_COLOR,
-        backgroundColor: theme.SECONDARY_COLOR,
-        borderTopColor: theme.PRIMARY_COLOR,
+        fontSize: theme.Fonts.Sizes.PARAGRAPH,
+        color: theme.Colors.TERTIARY,
+        backgroundColor: theme.Colors.SECONDARY,
+        borderTopColor: theme.Colors.TERTIARY,
         borderTopWidth: '5px',
         borderTopStyle: 'double',
-        padding: '5px',
+        padding: '0.5em',
         width: '100%',
         textAlign: 'center',
     },
     altText: {
-        color: 'ghostwhite',
+        color: theme.Colors.NEUTRAL,
         fontStyle: 'italic',
     },
     linkText: {
         textDecorationLine: 'none',
-        color: theme.PRIMARY_COLOR,
+        color: theme.Colors.TERTIARY,
         fontStyle: 'italic',
     }
 });

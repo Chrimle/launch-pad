@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native-web";
-import theme from "../../../../assets/theme";
+import theme from "../../../../assets/theme.js";
 
 const styles = StyleSheet.create({
     text: {
-        fontSize: '4em',
-        color: theme.SECONDARY_COLOR
+        fontSize: theme.Fonts.Sizes.TITLE,
+        color: theme.Colors.PRIMARY,
     },
 });
 

@@ -1,24 +1,24 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../assets/theme";
+import theme from "../../../../assets/theme.js";
 
 
 const styles = StyleSheet.create({
     text: {
-        backgroundColor: '#353535',
+        backgroundColor: theme.Colors.SECONDARY,
         marginBottom: '15px',
         marginHorizontal: '25px',
         paddingHorizontal: '30px',
         paddingVertical: '15px',
-        fontFamily: 'Caveat',
-        fontSize: '3vmin',
+        fontFamily: theme.Fonts.HANDWRITTEN,
+        fontSize: theme.Fonts.Sizes.PARAGRAPH,
         textAlign: 'left',
         borderWidth: '1px',
-        borderColor: theme.PRIMARY_COLOR,
+        borderColor: theme.Colors.TERTIARY,
         borderRadius: '15px',
-        color: 'white',
+        color: theme.Colors.NEUTRAL,
     },
     highlightedText: {
-        color: theme.PRIMARY_COLOR,
+        color: theme.Colors.TERTIARY,
     }
 });
 

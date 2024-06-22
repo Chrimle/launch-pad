@@ -1,11 +1,11 @@
 import { StyleSheet } from "react-native";
-import theme from "../../assets/theme";
+import theme from "../../assets/theme.js";
 
 const styles = StyleSheet.create({
     container: {
         padding: '1em',
         textAlign: 'center',
-        backgroundColor: theme.PRIMARY_COLOR,
+        backgroundColor: theme.Colors.TERTIARY,
         position: 'sticky',
         top: '0',
         zIndex: '1',

@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../assets/theme";
+import theme from "../../../../assets/theme.js";
 
 const styles = StyleSheet.create({
     container: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderRadius: '5px',
     },
     containerHover: {
-        backgroundColor: theme.PRIMARY_COLOR,
+        backgroundColor: theme.Colors.TERTIARY,
     },
     icon: {
         maxWidth: '250px',

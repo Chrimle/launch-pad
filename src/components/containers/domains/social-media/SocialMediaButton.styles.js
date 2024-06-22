@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import theme from "../../../../assets/theme";
+import theme from "../../../../assets/theme.js";
 
 const styles = StyleSheet.create({
     container: {
@@ -9,25 +9,25 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderBottomStyle: 'solid',
         borderBottomWidth: '1px',
-        borderBottomColor: theme.PRIMARY_COLOR,
-        padding: '10px',
-        margin: '5px',
-        marginTop: '15px',
+        borderBottomColor: theme.Colors.TERTIARY,
+        padding: '0.5em',
+        margin: '0.5em',
+        marginTop: '1em',
         textDecorationLine: 'none',
     },
     containerHover: {
-        backgroundColor: theme.PRIMARY_COLOR,
+        backgroundColor: theme.Colors.TERTIARY,
     },
     text: {
         flex: 1,
         textAlignVertical: 'center',
         textAlign: 'center',
-        color: 'white',
+        color: theme.Colors.NEUTRAL,
         whiteSpace: 'nowrap',
-        fontSize: '2vmax',
+        fontSize: theme.Fonts.Sizes.PARAGRAPH,
     },
     textHover: {
-        color: theme.SECONDARY_COLOR,
+        color: theme.Colors.PRIMARY,
     },
 });
 
