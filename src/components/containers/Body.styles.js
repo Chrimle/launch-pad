@@ -4,9 +4,9 @@ import theme from "../../assets/theme";
 
 const styles = StyleSheet.create({
     container: {
+        paddingVertical: '1em',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'space-between',
         backgroundColor: theme.BACKGROUND_COLOR,
     }
 });
