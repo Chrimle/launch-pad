@@ -3,8 +3,8 @@ import theme from "../../../../assets/theme";
 
 const styles = StyleSheet.create({
     text: {
-        fontSize: '1.6em',
-        color: theme.SECONDARY_COLOR,
+        fontSize: theme.Fonts.Sizes.SUB_HEADER,
+        color: theme.Colors.DOMINANT,
     },
 });
 

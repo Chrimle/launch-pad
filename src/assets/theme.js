@@ -6,6 +6,7 @@ const theme = {
     HANDWRITTEN: 'Caveat',
     Sizes: {
       PARAGRAPH: '1.1em',
+      SUB_HEADER: '1.6em',
     }
   },
   Colors: {
