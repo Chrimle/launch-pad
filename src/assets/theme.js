@@ -4,6 +4,11 @@ const theme = {
   BACKGROUND_COLOR: '#282c34',
   Fonts: {
     HANDWRITTEN: 'Caveat',
+  },
+  Colors: {
+    DOMINANT: '#282c34',
+    COMPLEMENT: 'whitesmoke',
+    ACCENT: 'aquamarine',
   }
 };
 

@@ -4,7 +4,7 @@ import theme from "../../../../assets/theme";
 
 const styles = StyleSheet.create({
     text: {
-        backgroundColor: '#353535',
+        backgroundColor: theme.Colors.DOMINANT,
         marginBottom: '15px',
         marginHorizontal: '25px',
         paddingHorizontal: '30px',
@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
         fontSize: '3vmin',
         textAlign: 'left',
         borderWidth: '1px',
-        borderColor: theme.PRIMARY_COLOR,
+        borderColor: theme.Colors.ACCENT,
         borderRadius: '15px',
-        color: 'white',
+        color: theme.Colors.COMPLEMENT,
     },
     highlightedText: {
-        color: theme.PRIMARY_COLOR,
+        color: theme.Colors.ACCENT,
     }
 });
 
