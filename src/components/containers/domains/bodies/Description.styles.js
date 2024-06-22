@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: '30px',
         paddingVertical: '15px',
         fontFamily: theme.Fonts.HANDWRITTEN,
-        fontSize: '3vmin',
+        fontSize: theme.Fonts.Sizes.PARAGRAPH,
         textAlign: 'left',
         borderWidth: '1px',
         borderColor: theme.Colors.ACCENT,

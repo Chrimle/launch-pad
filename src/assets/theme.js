@@ -4,6 +4,9 @@ const theme = {
   BACKGROUND_COLOR: '#282c34',
   Fonts: {
     HANDWRITTEN: 'Caveat',
+    Sizes: {
+      PARAGRAPH: '1.1em',
+    }
   },
   Colors: {
     DOMINANT: '#282c34',
