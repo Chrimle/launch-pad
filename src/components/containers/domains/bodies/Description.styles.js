@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         marginHorizontal: '25px',
         paddingHorizontal: '30px',
         paddingVertical: '15px',
-        fontFamily: 'Caveat',
+        fontFamily: theme.Fonts.HANDWRITTEN,
         fontSize: '3vmin',
         textAlign: 'left',
         borderWidth: '1px',
