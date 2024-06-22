@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     text: {
         marginLeft: '10px',
         justifyContent: 'center',
-        textAlignVertical: 'center',
+        verticalAlign: 'center',
         textAlign: 'center',
         color: theme.PRIMARY_COLOR,
     },

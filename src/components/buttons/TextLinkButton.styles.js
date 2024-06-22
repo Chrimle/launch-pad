@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     text: {
         flex: 1,
-        textAlignVertical: 'center',
+        verticalAlign: 'center',
         textAlign: 'center',
         color: theme.PRIMARY_COLOR,
     },
