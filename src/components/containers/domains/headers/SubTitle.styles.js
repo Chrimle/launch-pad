@@ -4,7 +4,7 @@ import theme from "../../../../assets/theme.js";
 const styles = StyleSheet.create({
     text: {
         fontSize: theme.Fonts.Sizes.SUB_HEADER,
-        color: theme.Colors.DOMINANT,
+        color: theme.Colors.PRIMARY,
     },
 });
 

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     footer: {
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
         color: theme.Colors.ACCENT,
-        backgroundColor: theme.Colors.DOMINANT,
+        backgroundColor: theme.Colors.PRIMARY,
         borderTopColor: theme.Colors.ACCENT,
         borderTopWidth: '5px',
         borderTopStyle: 'double',

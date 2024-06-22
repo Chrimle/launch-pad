@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        backgroundColor: theme.Colors.DOMINANT,
+        backgroundColor: theme.Colors.PRIMARY,
         minHeight: '100vh',
         paddingVertical: '2em',
     },

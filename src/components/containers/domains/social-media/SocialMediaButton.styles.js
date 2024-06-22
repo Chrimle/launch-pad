@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
     },
     textHover: {
-        color: theme.Colors.DOMINANT,
+        color: theme.Colors.PRIMARY,
     },
 });
 

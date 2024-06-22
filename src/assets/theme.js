@@ -9,7 +9,7 @@ const theme = {
     }
   },
   Colors: {
-    DOMINANT: '#282c34',
+    PRIMARY: '#282c34',
     COMPLEMENT: 'whitesmoke',
     ACCENT: 'aquamarine',
   }

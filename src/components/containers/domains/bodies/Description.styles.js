@@ -4,7 +4,7 @@ import theme from "../../../../assets/theme.js";
 
 const styles = StyleSheet.create({
     text: {
-        backgroundColor: theme.Colors.DOMINANT,
+        backgroundColor: theme.Colors.PRIMARY,
         marginBottom: '15px',
         marginHorizontal: '25px',
         paddingHorizontal: '30px',

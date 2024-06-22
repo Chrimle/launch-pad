@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         paddingVertical: '1em',
         flexDirection: 'column',
         alignItems: 'center',
-        backgroundColor: theme.Colors.DOMINANT,
+        backgroundColor: theme.Colors.PRIMARY,
     }
 });
 
