@@ -7,11 +7,12 @@ const styles = StyleSheet.create({
         margin: '25px',
     },
     header: {
-        color: 'white',
-        fontSize: '32pt',
+        color: theme.Colors.COMPLEMENT,
+        fontSize: theme.Fonts.Sizes.HEADER,
         textAlign: 'center',
-        borderBottomColor: theme.PRIMARY_COLOR,
-        borderBottomWidth: '5px'
+        borderBottomColor: theme.Colors.ACCENT,
+        borderBottomWidth: '5px',
+        whiteSpace: 'noWrap',
     },
     buttonsContainer: {
         display: 'flex',
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
         width: 'auto',
     },
     highlightedText: {
-        color: theme.PRIMARY_COLOR
+        color: theme.Colors.ACCENT,
     },
 });
 
