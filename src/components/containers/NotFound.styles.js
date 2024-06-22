@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     text: {
         color: theme.Colors.COMPLEMENT,
         fontSize: theme.Fonts.Sizes.HEADER,
-        borderBottomColor: theme.Colors.ACCENT,
+        borderBottomColor: theme.Colors.TERTIARY,
         borderBottomWidth: '0.2em',
         marginBottom: '0.5em',
     },

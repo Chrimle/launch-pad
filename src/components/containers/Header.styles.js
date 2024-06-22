@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     container: {
         padding: '1em',
         textAlign: 'center',
-        backgroundColor: theme.Colors.ACCENT,
+        backgroundColor: theme.Colors.TERTIARY,
         position: 'sticky',
         top: '0',
         zIndex: '1',

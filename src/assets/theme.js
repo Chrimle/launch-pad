@@ -12,7 +12,7 @@ const theme = {
     PRIMARY: '#222831',
     SECONDARY: '#393E46',
     COMPLEMENT: 'whitesmoke',
-    ACCENT: 'aquamarine',
+    TERTIARY: 'aquamarine',
   }
 };
 

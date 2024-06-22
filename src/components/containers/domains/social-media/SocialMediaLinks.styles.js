@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         color: theme.Colors.COMPLEMENT,
         fontSize: theme.Fonts.Sizes.HEADER,
         textAlign: 'center',
-        borderBottomColor: theme.Colors.ACCENT,
+        borderBottomColor: theme.Colors.TERTIARY,
         borderBottomWidth: '5px',
         whiteSpace: 'noWrap',
     },
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         width: 'auto',
     },
     highlightedText: {
-        color: theme.Colors.ACCENT,
+        color: theme.Colors.TERTIARY,
     },
 });
 

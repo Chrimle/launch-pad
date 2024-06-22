@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
         textAlign: 'left',
         borderWidth: '1px',
-        borderColor: theme.Colors.ACCENT,
+        borderColor: theme.Colors.TERTIARY,
         borderRadius: '15px',
         color: theme.Colors.COMPLEMENT,
     },
     highlightedText: {
-        color: theme.Colors.ACCENT,
+        color: theme.Colors.TERTIARY,
     }
 });
 

@@ -5,9 +5,9 @@ import theme from "../../assets/theme.js";
 const styles = StyleSheet.create({
     footer: {
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
-        color: theme.Colors.ACCENT,
+        color: theme.Colors.TERTIARY,
         backgroundColor: theme.Colors.SECONDARY,
-        borderTopColor: theme.Colors.ACCENT,
+        borderTopColor: theme.Colors.TERTIARY,
         borderTopWidth: '5px',
         borderTopStyle: 'double',
         padding: '0.5em',
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     },
     linkText: {
         textDecorationLine: 'none',
-        color: theme.Colors.ACCENT,
+        color: theme.Colors.TERTIARY,
         fontStyle: 'italic',
     }
 });

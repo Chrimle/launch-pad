@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderRadius: '5px',
     },
     containerHover: {
-        backgroundColor: theme.Colors.ACCENT,
+        backgroundColor: theme.Colors.TERTIARY,
     },
     icon: {
         maxWidth: '250px',

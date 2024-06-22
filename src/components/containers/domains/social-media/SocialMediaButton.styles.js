@@ -9,14 +9,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderBottomStyle: 'solid',
         borderBottomWidth: '1px',
-        borderBottomColor: theme.Colors.ACCENT,
+        borderBottomColor: theme.Colors.TERTIARY,
         padding: '0.5em',
         margin: '0.5em',
         marginTop: '1em',
         textDecorationLine: 'none',
     },
     containerHover: {
-        backgroundColor: theme.Colors.ACCENT,
+        backgroundColor: theme.Colors.TERTIARY,
     },
     text: {
         flex: 1,
