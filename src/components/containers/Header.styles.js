@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
         backgroundColor: theme.PRIMARY_COLOR,
         position: 'sticky',
         top: '0',
-        zIndex: '1'
+        zIndex: '1',
+        boxShadow: '0em 0.25em 0.5em 0.1em',
     }
 });
 
