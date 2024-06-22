@@ -13,14 +13,14 @@ const styles = StyleSheet.create({
         paddingVertical: '2em',
     },
     text: {
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
         fontSize: theme.Fonts.Sizes.HEADER,
         borderBottomColor: theme.Colors.TERTIARY,
         borderBottomWidth: '0.2em',
         marginBottom: '0.5em',
     },
     descriptionText: {
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
         fontStyle: 'italic',
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
     }

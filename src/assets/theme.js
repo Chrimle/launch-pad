@@ -11,7 +11,7 @@ const theme = {
   Colors: {
     PRIMARY: '#222831',
     SECONDARY: '#393E46',
-    COMPLEMENT: 'whitesmoke',
+    NEUTRAL: 'whitesmoke',
     TERTIARY: 'aquamarine',
   }
 };

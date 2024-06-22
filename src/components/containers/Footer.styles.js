@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     altText: {
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
         fontStyle: 'italic',
     },
     linkText: {

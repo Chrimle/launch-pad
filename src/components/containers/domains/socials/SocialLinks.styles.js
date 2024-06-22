@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         margin: '25px',
     },
     header: {
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
         fontSize: theme.Fonts.Sizes.HEADER,
         textAlign: 'center',
         borderBottomColor: theme.Colors.TERTIARY,

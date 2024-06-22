@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         flex: 1,
         textAlignVertical: 'center',
         textAlign: 'center',
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
         whiteSpace: 'nowrap',
         fontSize: theme.Fonts.Sizes.PARAGRAPH,
     },

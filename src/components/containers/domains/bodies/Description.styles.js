@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         borderWidth: '1px',
         borderColor: theme.Colors.TERTIARY,
         borderRadius: '15px',
-        color: theme.Colors.COMPLEMENT,
+        color: theme.Colors.NEUTRAL,
     },
     highlightedText: {
         color: theme.Colors.TERTIARY,
