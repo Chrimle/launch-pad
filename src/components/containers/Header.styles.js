@@ -3,9 +3,9 @@ import theme from "../../assets/theme";
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: '50px',
+        padding: '1em',
         textAlign: 'center',
-        backgroundColor: theme.BACKGROUND_COLOR,
+        backgroundColor: theme.PRIMARY_COLOR,
     }
 });
 

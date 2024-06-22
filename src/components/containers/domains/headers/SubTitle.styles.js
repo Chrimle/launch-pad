@@ -1,11 +1,10 @@
 import { StyleSheet } from "react-native-web";
+import theme from "../../../../assets/theme";
 
 const styles = StyleSheet.create({
     text: {
-        fontSize: '30px',
-        color: 'whitesmoke',
-        marginBottom: '30px',
-        fontStyle: 'italic'
+        fontSize: '1.6em',
+        color: theme.SECONDARY_COLOR,
     },
 });
 
