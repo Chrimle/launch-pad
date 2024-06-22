@@ -1,6 +1,7 @@
 import Footer from './components/containers/Footer';
 import Header from './components/containers/Header';
 import Body from './components/containers/Body';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <Header />
       </header>
       <body>
-        <Body />
+        <Routes>
+          <Route path='*' element={<Body />} />
+        </Routes>
       </body>
       <footer>
         <Footer />
