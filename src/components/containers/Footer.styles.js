@@ -4,23 +4,23 @@ import theme from "../../assets/theme";
 
 const styles = StyleSheet.create({
     footer: {
-        fontSize: '16pt',
-        color: theme.PRIMARY_COLOR,
-        backgroundColor: theme.SECONDARY_COLOR,
-        borderTopColor: theme.PRIMARY_COLOR,
+        fontSize: theme.Fonts.Sizes.PARAGRAPH,
+        color: theme.Colors.ACCENT,
+        backgroundColor: theme.Colors.DOMINANT,
+        borderTopColor: theme.Colors.ACCENT,
         borderTopWidth: '5px',
         borderTopStyle: 'double',
-        padding: '5px',
+        padding: '0.5em',
         width: '100%',
         textAlign: 'center',
     },
     altText: {
-        color: 'ghostwhite',
+        color: theme.Colors.COMPLEMENT,
         fontStyle: 'italic',
     },
     linkText: {
         textDecorationLine: 'none',
-        color: theme.PRIMARY_COLOR,
+        color: theme.Colors.ACCENT,
         fontStyle: 'italic',
     }
 });
