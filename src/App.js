@@ -6,20 +6,14 @@ import NotFound from './components/containers/NotFound';
 
 function App() {
   return (
-    <div>
-      <header>
-        <Header />
-      </header>
-      <body>
-        <Routes>
-          <Route path='/' element={<Body />} />
-          <Route path='*' element={<NotFound />} />
-        </Routes>
-      </body>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Body />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

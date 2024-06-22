@@ -6,6 +6,9 @@ const styles = StyleSheet.create({
         padding: '1em',
         textAlign: 'center',
         backgroundColor: theme.PRIMARY_COLOR,
+        position: 'sticky',
+        top: '0',
+        zIndex: '1'
     }
 });
 
